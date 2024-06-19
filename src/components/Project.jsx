@@ -68,7 +68,7 @@ const Project = () => {
     const [currentProject, setCurrentProject] = useState(0)
 
     return (
-        <div className='my-6 max-w-[1200px] mx-auto grid md:grid-cols-8 gap-6 md:py-36 glass md:pr-5' id="portfolio">
+        <div className='my-6 max-w-[1200px] mx-auto grid md:grid-cols-8 gap-6 md:mt-36 py-20 glass md:pr-5' id="portfolio">
 
 
             <div className='z-10 col-span-3 grid place-items-center grid-cols-1 relative'>

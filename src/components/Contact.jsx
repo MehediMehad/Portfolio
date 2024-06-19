@@ -16,8 +16,6 @@ const Contact = () => {
                         </p>     
                     </div>
                 </div> 
-                
-
                 <div className="flex mt-10 items-center gap-7">
                     <div className="bg-[#333333]/40 p-5 rounded-lg">
                         <h3 className="md:text-4xl text-2xl font-semibold text-white">11
@@ -38,14 +36,8 @@ const Contact = () => {
                         <p><span className="md:text-base text-xs">happy clients</span></p>
                     </div>
                 </div>
-
-
-
             </div>
-
-
-
-            <form action="https://getform.io/f/placeYourEndpointHere" method="POST" 
+            <form action="https://getform.io/f/zbxdmovb" method="POST" 
             className=' h-full max-w-6xl p-5 md:p-12' id="form">
                 <p className='text-gray-100 font-bold text-xl mb-2'>Let´s connect!</p>
                 <input
@@ -72,8 +64,6 @@ const Contact = () => {
                 />
                 <button type="submit" className='w-full py-3 rounded-md text-gray-100 font-semibold text-xl bg-primary-color'>Send Message</button>
             </form>
-
-        
     </div>
   )
 }

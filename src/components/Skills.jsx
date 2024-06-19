@@ -14,7 +14,7 @@ import {
 import { TypeAnimation } from "react-type-animation";
 const Skills = () => {
   return (
-    <div className="max-w-[1200px] mx-auto p-10 md:p-0 ">
+    <div className="max-w-[1200px] mx-auto my-36 p-10 md:p-0 ">
       <div className="">
 
         
