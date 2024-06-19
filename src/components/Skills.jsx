@@ -36,7 +36,7 @@ const Skills = () => {
             <SiTailwindcss className="text-[#38bdf8]" /> 
             <DiJavascript1 className="text-yellow-500" />
             <DiReact className="text-blue-500" />
-            <RiNextjsFill className="text-black bg-white rounded-full border-0" />
+            <RiNextjsFill className="text-black md:bg-white rounded-full border-0" />
             <DiNodejsSmall className="text-green-500" />
             <SiExpress className="text-white" />
             <DiMongodb className="text-green-500" />
