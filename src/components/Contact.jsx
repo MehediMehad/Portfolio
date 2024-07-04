@@ -7,9 +7,9 @@ const Contact = () => {
             <div>
                 <div className="p-2">
                     <div className="text-gray-300 my-3">
-                        <h3 className="text-4xl font-semibold mb-5">About <span>Me</span></h3>
+                        <h3 className="text-4xl font-semibold ml-5 mb-5">Contact <span>Me</span></h3>
                         <p className="text-justify leading-7 w-11/12 mx-auto">
-                            ff
+                        I'm currently available to take on new projects, so feel free to send me a message about anything you'd like to discuss. You can contact me anytime, 24/7.
                         </p>     
                     </div>
                 </div> 
