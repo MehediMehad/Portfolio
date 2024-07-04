@@ -76,9 +76,9 @@ const Project = () => {
         <div className='my-6 max-w-[1200px] mx-auto grid md:grid-cols-8 gap-6 md:mt-36 py-20 glass md:pr-5' id="portfolio">
 
 
-            <div className='z-10 col-span-3 grid place-items-center grid-cols-1 relative'>
-                <p className='text-gray-200 font-bold text-4xl -skew-y-6 '>Select Project</p>
-                <Image placeholder="blur" className="absolute w-[50px] top-10 right-12" src={arrow} alt='My Photo' />
+            <div className='z-10 col-span-3 grid place-items-center grid-cols-1 relative '>
+                <p className='text-gray-200 font-bold text-4xl -skew-y-6 hidden md:block'>Select Project</p>
+                <Image placeholder="blur" className="absolute w-[50px] top-10 right-12 hidden md:block" src={arrow} alt='My Photo' />
                 <ul className='ml-6 flex flex-row md:flex-col gap-6 flex-wrap justify-center md:gap-1
    space-y-2 md:space-y-4 text-2xl'>
                     {projects.map((project, index) => (

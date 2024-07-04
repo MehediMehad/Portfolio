@@ -9,11 +9,11 @@ const Contact = () => {
                     <div className="text-gray-300 my-3">
                         <h3 className="text-4xl font-semibold ml-5 mb-5">Contact <span>Me</span></h3>
                         <p className="text-justify leading-7 w-11/12 mx-auto">
-                        Im currently available to take on new projects, so feel free to send me a message about anything you like to discuss. You can contact me anytime, 24/7.
+                        I am currently available to take on new projects, so feel free to send me a message about anything you like to discuss. You can contact me anytime, 24/7.
                         </p>     
                     </div>
                 </div> 
-                <div className="flex mt-10 items-center gap-7">
+                <div className="flex mt-10 items-center gap-7 pl-5">
                     <div className="bg-[#333333]/40 p-5 rounded-lg">
                         <h3 className="md:text-4xl text-2xl font-semibold text-white">11
                             <span>+</span>

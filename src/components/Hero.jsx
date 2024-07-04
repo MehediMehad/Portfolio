@@ -10,8 +10,8 @@ import { TypeAnimation } from "react-type-animation";
 import Image from "next/image";
 const Hero = () => {
     return (
-        <div className="max-w-[1200px] mx-auto gap-6 p-10 md:p-0 md:pt-36" id="home">
-            <div className=" md:flex justify-around glass p-8 bg-green-400 ">
+        <div className="max-w-[1200px] mx-auto gap-6 md:p-10  md:pt-36" id="home">
+            <div className=" md:flex justify-around glass p-8 ">
                 <div className="my-auto ml-8  flex-col">
                     <p className="text-2xl md:text-4xl font-bold text-gray-200 md:mb-2">Hi! I am Mehedi </p>
                     <div className="text-2xl md:text-4xl font-bold text-gray-200">
@@ -44,7 +44,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <a
-                        href="https://drive.google.com/file/d/1phackZ_ZQls0ORn1JMxVtw1U6aXrJG8P/view"
+                        href="/resume.pdf" download="mehedi.pdf"
                         target="_blank"
                         title="See My Resume"
                         class="mt-4 px-4 py-2 text-lg font-bold text-white  bg-primary-color rounded-xl">
