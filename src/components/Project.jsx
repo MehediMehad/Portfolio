@@ -1,65 +1,70 @@
 "use client"
 import React, { useState } from 'react'
-import project1 from "../../public/assets/project1.png";
+import project1 from "../../public/assets/food.png";
+import school from "../../public/assets/school.png";
+import hotel from "../../public/assets/hotel.png";
 import arrow from "../../public/assets/arrow.png";
+import book from "../../public/assets/book.png";
+import art from "../../public/assets/arrt.png";
+// import arrow from "../../public/assets/arrow.png";
 import { AiFillGithub } from 'react-icons/ai'
 import Image from 'next/image';
 const projects = [
     {
-        img: project1,
+        img: school,
         title: "Project #1",
         description:
-            "UI for frontend development using React.",
+            "Employee Management.",
         links: {
-            site: "#",
-            github: "#",
+            site: "https://awei-b5fd9.firebaseapp.com",
+            github: "https://github.com/programming-hero-web-course1/b9a12-client-side-MehediMehad.git",
         },
     },
     {
         img: project1,
         title: "Project #2",
-        description: "A fullstack application built with Node.js and MongoDB.",
+        description: "Alternative Product Information System.",
         links: {
-            site: "#",
-            github: "#",
+            site: "https://assignment-eleven-96112.web.app",
+            github: "https://github.com/Porgramming-Hero-web-course/b9a11-client-side-MehediMehad.git",
         },
     },
     {
-        img: project1,
+        img: art,
         title: "Project #3",
-        description: "A responsive website designed with modern CSS.",
+        description: "Art & Craft",
         links: {
-            site: "#",
-            github: "#",
+            site: "https://assignment-ten-3e753.web.app",
+            github: "https://github.com/programming-hero-web-course-4/B9A10-client-side-MehediMehad.git",
         },
     },
     {
-        img: project1,
+        img: hotel,
         title: "Project #4",
         description:
-            "An e-commerce platform with various features.",
+            "Real Estate Websites",
         links: {
-            site: "#",
-            github: "#",
+            site: "https://luxury-home-bec8d.web.app",
+            github: "https://github.com/programming-hero-web-course-4/b9a9-real-estate-MehediMehad.git",
         },
     },
     {
-        img: project1,
+        img: book,
         title: "Project #5",
-        description: "A mobile-friendly application using React Native.",
+        description: "Book-Review Websites ",
         links: {
-            site: "#",
-            github: "#",
+            site: "https://glistening-lily-d0242e.netlify.app",
+            github: "https://github.com/programming-hero-web-course-4/b9a8-book-vibe-MehediMehad.git",
         },
     },
     {
         img: project1,
         title: "Project #6",
         description:
-            "A data visualization project using D3.js and other libraries.",
+            "Restaurant Website",
         links: {
-            site: "#",
-            github: "#",
+            site: "https://dainty-swan-46e3b4.netlify.app",
+            github: "https://github.com/programming-hero-web-course1/b9a7-chefs-table-MehediMehad.git",
         },
     }
 ]
@@ -91,16 +96,16 @@ const Project = () => {
             </div>
             <div className='z-10 md:mr-5 w-full border-2 col-span-5'>
                 <div className='w-full h-80'>
-                    <Image className='w-full h-full object-cover rounded-lg mb-4' src={projects[currentProject].img} alt={projects[currentProject].title} />
+                    <Image className='w-full h-full object-cover  mb-4' src={projects[currentProject].img} alt={projects[currentProject].title} />
                 </div>
                 <div className='p-6'>
                     <p className='text-gray-200 my-4'>
                         {projects[currentProject].description}
                     </p>
                     <div className='flex space-x-4'>
-                        <a href={projects[currentProject].links.site} className='px-4 py-2 bg-slate-600
+                        <a href={projects[currentProject].links.site} target='_blank' className='px-4 py-2 bg-slate-600
                    text-gray-200 rounded-lg hover:bg-slate-700 transition duration-300'>View Site</a>
-                        <a href={projects[currentProject].links.github} className='px-4 py-2 bg-gray-800
+                        <a href={projects[currentProject].links.github} target='_blank' className='px-4 py-2 bg-gray-800
                    text-gray-200 text-2xl rounded-lg hover:bg-gray-600 transition duration-300'>
                             <AiFillGithub />
                         </a>

@@ -3,16 +3,13 @@ import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
 
 const Contact = () => {
   return (
-    <div className='px-6 max-w-[1200px] mx-auto  grid md:grid-cols-2 place-items-center glass mt-9' id="contact">
+    <div className='px-6 max-w-[1200px] mx-auto mt-36  grid md:grid-cols-2 place-items-center glass ' id="contact">
             <div>
                 <div className="p-2">
                     <div className="text-gray-300 my-3">
                         <h3 className="text-4xl font-semibold mb-5">About <span>Me</span></h3>
                         <p className="text-justify leading-7 w-11/12 mx-auto">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                            eos, quam vel quisquam, explicabo sit labore dignissimos optio
-                            ratione quibusdam doloribus pariatur consequuntur sint.
-                            Reprehenderit cupiditate possimus facere quasi voluptatem?
+                            ff
                         </p>     
                     </div>
                 </div> 
