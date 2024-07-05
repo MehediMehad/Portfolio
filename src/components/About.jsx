@@ -16,7 +16,7 @@ const About = () => {
                             <p className='mt-5'>I am a dedicated and enthusiastic web developer studying Computer Science and Technology at GraphicArts Institute. </p>
                         </div>
                         <div className="p-5 text-[#d1d5db]">
-                            <p className='mt-4 active-project inline-block px-6 text-center mx-auto'>Educational</p>
+                            <p className='mt-4 active-project inline-block px-6 text-center mx-auto'>Career Goals</p>
                             <p className='mt-5'>I am committed to continuous learning and improvement, constantly exploring new technologies and methodologies to enhance my skills. I am eager to pursue a job or internship to drive my web development career toward success. My goal is to contribute to innovative projects and deliver outstanding results. </p>
                         </div>
                     </div>
